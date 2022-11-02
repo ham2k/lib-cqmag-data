@@ -1,4 +1,5 @@
-module.exports = {
+/* eslint-disable */
+export default {
   displayName: "data-cqzones",
   preset: "../../../jest.preset.js",
   globals: {
