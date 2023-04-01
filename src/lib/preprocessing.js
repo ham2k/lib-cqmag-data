@@ -1,15 +1,15 @@
 // const { parse } = require("csv/dist/cjs/sync.cjs") // Use this line when running tests
 
-const { CTYData } = require("@ham2k/lib-country-files/builtinData")
-const WAE = require("../../data/wae.json")
+const { CTYData } = require('@ham2k/lib-country-files/builtinData')
+const WAE = require('../../data/wae.json')
 
-function preprocessCQWWData(dxcc) {
+function preprocessCQWWData (dxcc) {
   const cqww = {}
 
   Object.keys(dxcc).forEach((code) => {
     if (!dxcc[code].deleted) {
-      if (cqww[dxcc[code].entityPrefix])
-        console.log("Duplicate prefix", dxcc[code].entityPrefix, code, cqww[dxcc[code].entityPrefix])
+      if (cqww[dxcc[code].entityPrefix]) { console.log('Duplicate prefix', dxcc[code].entityPrefix, code, cqww[dxcc[code].entityPrefix]) }
+
       cqww[dxcc[code].entityPrefix] = dxcc[code]
     }
   })
@@ -29,5 +29,5 @@ function preprocessCQWWData(dxcc) {
 }
 
 module.exports = {
-  preprocessCQWWData,
+  preprocessCQWWData
 }
