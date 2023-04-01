@@ -1,23 +1,11 @@
-# local secrets
-.local.env
-
-# compiled output
-/dist
-/tmp
-
-# dependencies
-node_modules
-
-# IDE - VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-
-# System Files
-.DS_Store
-Thumbs.db
-
-# Local Netlify folder
-.netlify
+{
+  "name": "@ham2k/lib-cqmag-data",
+  "version": "0.0.2",
+  "type": "commonjs",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "generate": "node ./scripts/generate.js"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "IG9": {
+    "entityPrefix": "*IG9",
+    "source": "WAE",
+    "dxccCode": 248,
+    "continent": "AF",
+    "prefixes": ["IG9", "IH9"],
+    "name": "African Italy",
+    "fullName": "African Italy",
+    "shortName": "African Italy"
+  },
+  "IT9": {
+    "entityPrefix": "*IT9",
+    "source": "WAE",
+    "dxccCode": 248,
+    "continent": "EU",
+    "prefixes": ["IT9"],
+    "name": "Sicily",
+    "fullName": "Sicily (Italy)",
+    "shortName": "Sicily"
+  },
+  "JW/b": {
+    "entityPrefix": "*JW/b",
+    "source": "WAE",
+    "dxccCode": 259,
+    "continent": "EU",
+    "prefixes": ["JW/b"],
+    "name": "Bear I.",
+    "fullName": "Bear Island",
+    "shortName": "Bear I."
+  },
+  "TA1": {
+    "entityPrefix": "*TA1",
+    "source": "WAE",
+    "dxccCode": 390,
+    "continent": "EU",
+    "prefixes": ["TA1"],
+    "name": "European Turkey",
+    "fullName": "European Turkey",
+    "shortName": "European Turkey"
+  },
+  "4U1V": {
+    "entityPrefix": "*4U1V",
+    "source": "WAE",
+    "dxccCode": 206,
+    "continent": "EU",
+    "prefixes": ["4U1V"],
+    "name": "UN Vienna Int. Center",
+    "fullName": "United Nations Vienna International Center",
+    "shortName": "UN Viena IC"
+  },
+  "GM/s": {
+    "entityPrefix": "*GM/s",
+    "source": "WAE",
+    "dxccCode": 279,
+    "continent": "EU",
+    "prefixes": ["GM/s"],
+    "name": "Shetland Is.",
+    "fullName": "Shetland Islands",
+    "shortName": "Shetland Is."
+  }
+}
