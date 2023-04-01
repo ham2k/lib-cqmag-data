@@ -1,11 +1,3 @@
-# data-cqzones
+# lib-cqmag-data
 
-This library was generated with [Nx](https://nx.dev).
-
-## Building
-
-Run `nx build data-cqzones` to build the library.
-
-## Running unit tests
-
-Run `nx test data-cqzones` to execute the unit tests via [Jest](https://jestjs.io).
+Data files related to CQ Magazine, its sponsored contests and related information.
