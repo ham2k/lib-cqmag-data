@@ -5,6 +5,10 @@
   "exports": {
     ".": "./src/index.js"
   },
+  "devDependencies": {
+    "@ham2k/lib-country-files": "^0.0.1",
+    "@ham2k/lib-dxcc-data": "^0.0.1"
+  },
   "scripts": {
     "generate": "node ./scripts/generate.js"
   }

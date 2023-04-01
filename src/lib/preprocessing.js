@@ -1,6 +1,6 @@
 // const { parse } = require("csv/dist/cjs/sync.cjs") // Use this line when running tests
 
-const CTYData = require("../../../country-file/src/data/bigcty.json")
+const { CTYData } = require("@ham2k/lib-country-files/builtinData")
 const WAE = require("../../data/wae.json")
 
 function preprocessCQWWData(dxcc) {
