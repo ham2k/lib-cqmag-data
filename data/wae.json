@@ -8,7 +8,8 @@
     "prefixes": ["IG9", "IH9"],
     "name": "African Italy",
     "fullName": "African Italy",
-    "shortName": "African Italy"
+    "shortName": "African Italy",
+    "adifRegion": "AI"
   },
   "IT9": {
     "entityPrefix": "*IT9",
@@ -19,7 +20,8 @@
     "prefixes": ["IT9"],
     "name": "Sicily",
     "fullName": "Sicily (Italy)",
-    "shortName": "Sicily"
+    "shortName": "Sicily",
+    "adifRegion": "SY"
   },
   "JW/b": {
     "entityPrefix": "*JW/b",
@@ -30,7 +32,8 @@
     "prefixes": ["JW/b"],
     "name": "Bear I.",
     "fullName": "Bear Island",
-    "shortName": "Bear I."
+    "shortName": "Bear I.",
+    "adifRegion": "BI"
   },
   "TA1": {
     "entityPrefix": "*TA1",
@@ -41,7 +44,8 @@
     "prefixes": ["TA1"],
     "name": "European Turkey",
     "fullName": "European Turkey",
-    "shortName": "European Turkey"
+    "shortName": "European Turkey",
+    "adifRegion": "ET"
   },
   "4U1V": {
     "entityPrefix": "*4U1V",
@@ -52,7 +56,8 @@
     "prefixes": ["4U1V"],
     "name": "UN Vienna Int. Center",
     "fullName": "United Nations Vienna International Center",
-    "shortName": "UN Viena IC"
+    "shortName": "UN Viena IC",
+    "adifRegion": "IV"
   },
   "GM/s": {
     "entityPrefix": "*GM/s",
@@ -63,6 +68,7 @@
     "prefixes": ["GM/s"],
     "name": "Shetland Is.",
     "fullName": "Shetland Islands",
-    "shortName": "Shetland Is."
+    "shortName": "Shetland Is.",
+    "adifRegion": "SI"
   }
 }
