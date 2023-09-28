@@ -9,7 +9,9 @@
     "prefixes": ["IG9", "IH9"],
     "name": "African Italy",
     "fullName": "African Italy",
-    "shortName": "African Italy"
+    "shortName": "African Italy",
+    "iota": "AF-018",
+    "iota2": "AF-019"
   },
   "IT9": {
     "entityPrefix": "*IT9",
@@ -20,7 +22,8 @@
     "prefixes": ["IT9"],
     "name": "Sicily",
     "fullName": "Sicily (Italy)",
-    "shortName": "Sicily"
+    "shortName": "Sicily",
+    "iota": "EU-025"
   },
   "JW/b": {
     "entityPrefix": "*JW/b",
@@ -31,7 +34,8 @@
     "prefixes": ["JW/b"],
     "name": "Bear I.",
     "fullName": "Bear Island",
-    "shortName": "Bear I."
+    "shortName": "Bear I.",
+    "iota": "EU-027"
   },
   "TA1": {
     "entityPrefix": "*TA1",
@@ -64,6 +68,7 @@
     "prefixes": ["GM/s"],
     "name": "Shetland Is.",
     "fullName": "Shetland Islands",
-    "shortName": "Shetland Is."
+    "shortName": "Shetland Is.",
+    "iota": "EU-012"
   }
 }
