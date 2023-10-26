@@ -46,7 +46,8 @@
     "prefixes": ["TA1"],
     "name": "European Turkey",
     "fullName": "European Turkey",
-    "shortName": "European Turkey"
+    "shortName": "European Turkey",
+    "iota": "EU-186"
   },
   "4U1V": {
     "entityPrefix": "*4U1V",
