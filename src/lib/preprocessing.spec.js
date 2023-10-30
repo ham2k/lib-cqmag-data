@@ -26,6 +26,7 @@ describe('preprocessCQWWData', () => {
 
     expect(cqww['*4U1V'].dxccName).toEqual('Austria')
     expect(cqww['*4U1V'].name).toEqual('UN Vienna Int. Center')
+    expect(cqww['*4U1V'].flag).toEqual('🇺🇳')
 
     expect(cqww['*GM/s'].dxccName).toEqual('Scotland')
     expect(cqww['*GM/s'].name).toEqual('Shetland Is.')
