@@ -1,6 +1,6 @@
 {
   "name": "@ham2k/lib-cqmag-data",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "type": "commonjs",
   "exports": {
     ".": "./src/index.js"
