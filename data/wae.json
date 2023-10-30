@@ -58,7 +58,8 @@
     "prefixes": ["4U1V"],
     "name": "UN Vienna Int. Center",
     "fullName": "United Nations Vienna International Center",
-    "shortName": "UN Viena IC"
+    "shortName": "UN Viena IC",
+    "flag": "🇺🇳"
   },
   "GM/s": {
     "entityPrefix": "*GM/s",
