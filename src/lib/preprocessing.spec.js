@@ -1,5 +1,5 @@
-const { preprocessCQWWData } = require('./preprocessing')
-const { ENTITIES } = require('@ham2k/lib-dxcc-data')
+import { preprocessCQWWData } from './preprocessing'
+import { ENTITIES } from '@ham2k/lib-dxcc-data'
 
 /* eslint dot-notation: 0 */
 

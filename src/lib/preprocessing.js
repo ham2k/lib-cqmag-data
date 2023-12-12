@@ -1,9 +1,9 @@
 // const { parse } = require("csv/dist/cjs/sync.cjs") // Use this line when running tests
 
-const { CTYData } = require('@ham2k/lib-country-files/builtinData')
-const WAE = require('../../data/wae.json')
+import { CTYData } from '@ham2k/lib-country-files/builtinData'
+import WAE from '../../data/wae.json' assert { type: 'json' }
 
-function preprocessCQWWData (dxcc) {
+export function preprocessCQWWData (dxcc) {
   const cqww = {}
 
   Object.keys(dxcc).forEach((code) => {
@@ -28,6 +28,3 @@ function preprocessCQWWData (dxcc) {
   return cqww
 }
 
-module.exports = {
-  preprocessCQWWData
-}

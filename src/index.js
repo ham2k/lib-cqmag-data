@@ -1,9 +1,8 @@
-const CQZONES = require('../data/cqzones.json')
-const CQZONES_FOR_STATES = require('../data/cqz-for-states.json')
-const CQWW_ENTITIES = require("./data/cqwwByPrefix.json")
+import cqZones from '../data/cqzones.json' assert { type: 'json' }
+import stateZones from '../data/cqz-for-states.json' assert { type: 'json' }
+import cqww from './data/cqwwByPrefix.json' assert { type: 'json' }
 
-module.exports = {
-  CQZONES,
-  CQZONES_FOR_STATES,
-  CQWW_ENTITIES
-}
+export const CQZONES = cqZones
+export const CQZONES_FOR_STATES = stateZones
+export const CQWW_ENTITIES = cqww
+
