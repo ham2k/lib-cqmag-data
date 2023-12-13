@@ -1,5 +1,5 @@
-export * from '../data/cqzones.json'
-export * from '../data/cqz-for-states.json'
-export * from './data/cqwwByPrefix.json'
+export * from './data/cqzones.js'
+export * from './data/cqzonesForStates.js'
+export * from './data/cqwwEntitiesByPrefix.js'
 
 
