@@ -1,6 +1,6 @@
 {
   "name": "@ham2k/lib-cqmag-data",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "type": "module",
   "main": "./src/index.js",
   "exports": {
