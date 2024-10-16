@@ -1,6 +1,6 @@
 {
   "name": "@ham2k/lib-cqmag-data",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "type": "module",
   "main": "./src/index.js",
   "exports": {
@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "@ham2k/lib-country-files": "^0.9",
-    "@ham2k/lib-dxcc-data": "^0.2",
+    "@ham2k/lib-dxcc-data": "^0.3",
     "jest": "^29",
     "standard": "^17"
   },
