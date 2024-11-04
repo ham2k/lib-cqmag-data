@@ -7,7 +7,7 @@
     ".": "./src/index.js"
   },
   "devDependencies": {
-    "@ham2k/lib-country-files": "^0.9",
+    "@ham2k/lib-country-files": "^0.10",
     "@ham2k/lib-dxcc-data": "^0.3",
     "jest": "^29",
     "standard": "^17"
