@@ -1,11 +1,11 @@
-import { preprocessCQWWData } from './preprocessing'
-import { ENTITIES } from '@ham2k/lib-dxcc-data'
+import { preprocessCQWWData } from './preprocessing.js'
+import { DXCC_BY_PREFIX, DXCC_BY_CODE } from '@ham2k/lib-dxcc-data'
 
 /* eslint dot-notation: 0 */
 
 describe('preprocessCQWWData', () => {
   it('should work', () => {
-    const cqww = preprocessCQWWData(ENTITIES)
+    const cqww = preprocessCQWWData(DXCC_BY_PREFIX, DXCC_BY_CODE)
 
     expect(Object.values(cqww).length).toEqual(346)
 
@@ -32,3 +32,4 @@ describe('preprocessCQWWData', () => {
     expect(cqww['*GM/s'].name).toEqual('Shetland Is.')
   })
 })
+
