@@ -1,9 +1,8 @@
 import { BIGCTY } from '@ham2k/lib-country-files'
 import { CQWWEntity } from '../types.js'
+import WAEData from '../../data/wae.json'
 
-import { createRequire } from 'node:module'
-const require = createRequire(import.meta.url)
-const WAE = require('../../data/wae.json')
+const WAE = WAEData as Record<string, CQWWEntity>
 
 function normalizeEntity(entity: CQWWEntity): CQWWEntity {
   // Normalize continents to continent for backward compatibility

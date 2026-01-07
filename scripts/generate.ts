@@ -1,12 +1,9 @@
 import fs from 'fs'
 import { preprocessCQWWData } from '../src/lib/preprocessing.js'
 import { DXCC_BY_PREFIX, DXCC_BY_CODE } from '@ham2k/lib-dxcc-data'
-
-import { createRequire } from 'node:module'
-const require = createRequire(import.meta.url)
-const CQZONES_FOR_STATES = require('../data/cqzones-for-states.json')
-const CQZONES = require('../data/cqzones.json')
-const WAE = require('../data/wae.json')
+import CQZONES_FOR_STATES from '../data/cqzones-for-states.json'
+import CQZONES from '../data/cqzones.json'
+import WAE from '../data/wae.json'
 
 console.log('Generating CQWW json')
 

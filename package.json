@@ -1,13 +1,15 @@
 {
   "name": "@ham2k/lib-cqmag-data",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "type": "module",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.js"
+      "types": "./dist/esm/index.d.ts",
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js"
     }
   },
   "files": [
@@ -28,7 +30,10 @@
     "typescript": "^5.9.3"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "npm run build:esm && npm run build:cjs && npm run build:package-json",
+    "build:esm": "tsc",
+    "build:cjs": "tsc -p tsconfig.cjs.json",
+    "build:package-json": "echo '{\"type\":\"module\"}' > dist/esm/package.json && echo '{\"type\":\"commonjs\"}' > dist/cjs/package.json",
     "generate": "tsx ./scripts/generate.ts",
     "test": "node --experimental-vm-modules ./node_modules/.bin/jest",
     "prepublishOnly": "npm run build"
