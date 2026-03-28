@@ -1,6 +1,6 @@
 {
   "name": "@ham2k/lib-cqmag-data",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "type": "module",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
@@ -26,15 +26,12 @@
     "standard": "^17",
     "ts-jest": "^29.4.5",
     "ts-node": "^10.9.2",
+    "tsup": "^8.5.0",
     "tsx": "^4.20.6",
     "typescript": "^5.9.3"
   },
   "scripts": {
-    "build": "npm run build:esm && npm run build:cjs && npm run build:package-json",
-    "build:esm": "tsc",
-    "build:cjs": "tsc -p tsconfig.cjs.json",
-    "build:package-json": "echo '{\"type\":\"module\"}' > dist/esm/package.json && echo '{\"type\":\"commonjs\"}' > dist/cjs/package.json",
-    "generate": "tsx ./scripts/generate.ts",
+    "build": "tsup",
     "test": "node --experimental-vm-modules ./node_modules/.bin/jest",
     "prepublishOnly": "npm run build"
   },
